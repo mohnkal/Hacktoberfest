@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.background-img1 {
+    /* Add Background Image here */
+    min-height: 100%;
+}
+
+.background-img2 {
+    /* Add Background Image here */
+    min-height: 400px;
+}
+
+.background-img3 {
+    /* Add Background Image here */
+    min-height: 400px;
+}
+
+.background-img1, .background-img2, .background-img3 {
+    position: relative;
+   /* Write your code below*/
+}
+
+.ptext {
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    top: 50%;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textbg {
+    background-color: #313534;
+    color: white;
+    padding: 20px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light {
+   background-color: #f4f4f4;
+   color: #666;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
